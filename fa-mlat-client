@@ -31,7 +31,7 @@ def main():
 
     udp_host, udp_port, udp_key = args.udp_transport.split(':')
     udp_port = int(udp_port)
-    udp_key = int(udp_key)
+    #udp_key = int(udp_key)
     udp_transport = UdpServerConnection(udp_host, udp_port, udp_key)
     log("Using UDP transport to {host}:{port}", host=udp_host, port=udp_port)
 
