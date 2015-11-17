@@ -40,4 +40,4 @@ setup(name='MlatClient',
       author_email='oliver@mutability.co.uk',
       packages=['mlat', 'mlat.client', 'flightaware', 'flightaware.client'],
       ext_modules=[modes_ext],
-      scripts=['mlat-client', 'fa-mlat-client'])
+      scripts=['mlat-client', 'fa-mlat-client', 'fam-mlat-client'])

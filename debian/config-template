@@ -15,6 +15,9 @@ RUN_AS_USER=
 # User to log into the server as
 SERVER_USER=
 
+# Key to log into the server
+SERVER_KEY=
+
 # Logfile to log to
 LOGFILE=
 

@@ -35,6 +35,11 @@ Description: User to log into the server as:
 Type: string
 Default:
 
+Template: mlat-client/server-key
+Description: Key used to log into the server.
+Type: string
+Default:
+
 Template: mlat-client/log-file
 Description: Path to log to:
  When started automatically, mlat-client will log its output somewhere. This
